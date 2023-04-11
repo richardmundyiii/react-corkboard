@@ -40,6 +40,6 @@ const [images, setImages] = ([
 
 - Beginning at the bottom I created 'ImageElement.jsx'. Using React's hooks 'useState' and 'useRef', we need to keep track of weather the element (in our case an image) is being dragged or not and its position.
 
-* The app needs to handle events such as when the mouse clicks down, when it unclicks (mouseUp), and when the mouse moves around.
-* Needs to track its relative position as to how much it moved and where iet stopped moving.
-* Added a little styling for once the image has been grabbed to change from pointer to a grab cursor.
+  - The app needs to handle events such as when the mouse clicks down, when it unclicks (mouseUp), and when the mouse moves around.
+  - Needs to track its relative position as to how much it moved and where iet stopped moving.
+  - Added a little styling for once the image has been grabbed to change from pointer to a grab cursor.
