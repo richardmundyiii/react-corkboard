@@ -40,6 +40,22 @@ const [images, setImages] = ([
 
 - Beginning at the bottom I created 'ImageElement.jsx'. Using React's hooks 'useState' and 'useRef', we need to keep track of weather the element (in our case an image) is being dragged or not and its position.
 
+  - First, id, url, x, y, moveImage, and containerRef need to be deconstructed.
   - The app needs to handle events such as when the mouse clicks down, when it unclicks (mouseUp), and when the mouse moves around.
   - Needs to track its relative position as to how much it moved and where iet stopped moving.
   - Added a little styling for once the image has been grabbed to change from pointer to a grab cursor.
+
+- Second is to create the container of this function/app by creating Corkboard.jsx
+
+  - Here, import { useDrop } from react-dnd and the ImageElement that was previously created.
+  - Need to deconstruct the 'images' and 'moveImage' being passed from App.jsx and create a containerRef using useRef.
+  - Next we use the useDrop() hook which returns an array containing a ref to attach to the Drop Target node and the collected props. This allows you to specify what can or cannot be dropped.
+  - Then we return the referenced node, styles (if any), and the images array map with the ImageElement component.
+
+Last step is to wrap the 'Corkboard' inside the 'DndProvider' and pass along HTML5Backend, the images, and moveImage.
+
+```
+      <DndProvider backend={HTML5Backend}>
+        <Corkboard images={images} moveImage={moveImage} />
+      </DndProvider>
+```
