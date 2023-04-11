@@ -22,7 +22,7 @@ npm install
 
 ## Screenshots
 
-| Syntax       | Description                                        |
+|              | Description                                        |
 | ------------ | -------------------------------------------------- |
 | Inital State | ![](./src/assets/images/start.png "Initial State") |
 | Lineup Set   | ![](./src/assets/images/set.png "Lineup Set")      |
