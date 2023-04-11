@@ -16,6 +16,20 @@ After forking this repo, install all dependencies: "react-dnd", "react-dnd-html5
 npm install
 ```
 
+</div>
+
+<div>
+
+## Screenshots
+
+|                                                    |
+| :------------------------------------------------: |
+| ![](./src/assets/images/start.png "Initial State") |
+|   ![](./src/assets/images/set.png "Lineup Set")    |
+
+</div>
+<div>
+
 ## How to Use
 
 - To change the background image update .App in the App.css file.
