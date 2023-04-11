@@ -8,47 +8,47 @@ function App() {
   const [images, setImages] = useState([
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU22BGHJAASO_p_2048x.jpg?v=1659679665",
-      x: 200,
+      x: 375,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU22SVSLAAMT_p_2048x.jpg?v=1680588388",
-      x: 300,
+      x: 475,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU22SVSLLDMB_p_2048x.jpg?v=1680588378",
-      x: 400,
+      x: 575,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBVAR62BGHRNYAJ_p_2048x.jpg?v=1666247013",
-      x: 500,
+      x: 675,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU23BGHJNMPA_p_large.jpg?v=1680588368",
-      x: 600,
+      x: 775,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBVNSHSTSPFT_p_64108cc1-6a74-4595-b247-5c807268f182_2048x.jpg?v=1668579273",
-      x: 700,
+      x: 875,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU23BGHJMBCY_p_2048x.jpg?v=1679724297",
-      x: 800,
+      x: 975,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU4XPTGLSCDYM_p_2048x.jpg?v=1671775926",
-      x: 900,
+      x: 1075,
       y: 200,
     },
     {
       url: "https://cdn.shopify.com/s/files/1/2578/8918/products/BHMBSMU23CTCNABRA_g4_2048x.jpg?v=1680847520",
-      x: 1000,
+      x: 1175,
       y: 200,
     },
   ]);
