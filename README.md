@@ -52,7 +52,7 @@ const [images, setImages] = ([
   - Next we use the useDrop() hook which returns an array containing a ref to attach to the Drop Target node and the collected props. This allows you to specify what can or cannot be dropped.
   - Then we return the referenced node, styles (if any), and the images array map with the ImageElement component.
 
-Last step is to wrap the 'Corkboard' inside the 'DndProvider' and pass along HTML5Backend, the images, and moveImage.
+* Last step is to wrap the 'Corkboard' inside the 'DndProvider' and pass along HTML5Backend, the images, and moveImage.
 
 ```
       <DndProvider backend={HTML5Backend}>
