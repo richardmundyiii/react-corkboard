@@ -22,10 +22,10 @@ npm install
 
 ## Screenshots
 
-|                                                    |
-| :------------------------------------------------: |
-| ![](./src/assets/images/start.png "Initial State") |
-|   ![](./src/assets/images/set.png "Lineup Set")    |
+|| |
+|| :------------------------------------------------: |
+| Inital State| ![](./src/assets/images/start.png "Initial State") |
+| Lineup Set| ![](./src/assets/images/set.png "Lineup Set") |
 
 </div>
 <div>
